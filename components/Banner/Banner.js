@@ -5,20 +5,20 @@ import png2 from "../../public/assets/images/banner/home1/4.png";
 
 const Banner = () => {
   return (
-    <div class="">
-      <div class="banner__bg">
-        <div class="banner__bg-element">
+    <div className="">
+      <div className="banner__bg">
+        <div className="banner__bg-element">
           <Image
             src={light1}
             alt="section-bg-element"
-            class="dark hidden lg:block"
+            className="dark hidden lg:block "
           />
-          <span class="bg-color lg:hidden"></span>
+          <span className="bg-color lg:hidden"></span>
         </div>
       </div>
 
-      <div class="banner__shape">
-        <span class="banner__shape-item banner__shape-item--1">
+      <div className="banner__shape">
+        <span className="banner__shape-item banner__shape-item--1">
           <Image src={png2} alt="shape icon" />
         </span>
       </div>

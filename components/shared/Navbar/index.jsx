@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <nav id="topnav" className="defaultscroll is-sticky">
       <div className="container">
-        <Link className="logo pl-0" href="">
+        <Link className="logo pl-0" href="/">
           <Image
             src="/assets/images/logo-dark.png"
             width={138}
@@ -42,7 +42,7 @@ const NavBar = () => {
         <ul className="buy-button list-none mb-0">
           <li className="inline mb-0">
             <Link
-              href=""
+              href="/demo"
               className="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-3"
             >
               Demo <i className="mdi mdi-chevron-right align-middle"></i>

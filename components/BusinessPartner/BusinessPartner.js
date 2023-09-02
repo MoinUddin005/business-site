@@ -12,7 +12,7 @@ const BusinessPartner = () => {
             {allData?.map((data, index) => 
               
               <div className="mx-auto py-4" key={index}>
-                    <Image src={data.url} alt="img" className="h-6" />
+                    <Image src={data.url} alt="img"  width={100}height={50} className="h-6" />
               </div>
             )}
           </div>

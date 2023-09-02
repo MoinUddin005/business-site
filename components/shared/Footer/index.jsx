@@ -1,5 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import logo from "../../../public/assets/images/logo-light.png";
+import payments from "../../../public/assets/images/payments/american-ex.png";
+import payments2 from "../../../public/assets/images/payments/discover.png";
+import payments3 from "../../../public/assets/images/payments/master-card.png";
+import payments4 from "../../../public/assets/images/payments/paypal.png";
+import payments5 from "../../../public/assets/images/payments/paypal.png";
 
 const Footer = () => {
   return (
@@ -11,7 +17,7 @@ const Footer = () => {
               <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                 <div className="lg:col-span-4 md:col-span-12">
                   <a href="#" className="text-[22px] focus:outline-none">
-                    <Image src="assets/images/logo-light.png" alt="" />
+                    <Image src={logo} alt="" />
                   </a>
                   <p className="mt-6 text-gray-300">
                     Start working with Tailwind CSS that can provide everything
@@ -314,7 +320,7 @@ const Footer = () => {
               <li className="inline">
                 <a href="">
                   <Image
-                    src="assets/images/payments/american-ex.png"
+                    src={payments}
                     className="max-h-6 inline"
                     title="American Express"
                     alt=""
@@ -324,7 +330,7 @@ const Footer = () => {
               <li className="inline">
                 <a href="">
                   <Image
-                    src="assets/images/payments/discover.png"
+                    src={payments2}
                     className="max-h-6 inline"
                     title="Discover"
                     alt=""
@@ -334,7 +340,7 @@ const Footer = () => {
               <li className="inline">
                 <a href="">
                   <Image
-                    src="assets/images/payments/master-card.png"
+                    src={payments3}
                     className="max-h-6 inline"
                     title="Master Card"
                     alt=""
@@ -344,7 +350,7 @@ const Footer = () => {
               <li className="inline">
                 <a href="">
                   <Image
-                    src="assets/images/payments/paypal.png"
+                    src={payments4}
                     className="max-h-6 inline"
                     title="Paypal"
                     alt=""
@@ -354,7 +360,7 @@ const Footer = () => {
               <li className="inline">
                 <a href="">
                   <Image
-                    src="assets/images/payments/visa.png"
+                    src={payments5}
                     className="max-h-6 inline"
                     title="Visa"
                     alt=""

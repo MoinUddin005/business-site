@@ -6,6 +6,7 @@ import '../public/assets/libs/@iconscout/unicons/css/line.css'
 import '../public/assets/css/icons.css'
 import '../public/assets/css/style.css'
 import '../public/assets/css/swiper-bundle.min.css'
+import '../public/assets/css/tailwind.css'
 import 'tiny-slider/dist/tiny-slider.css';
 import MainLayout from '../components/MainLayout/MainLayout'
 
