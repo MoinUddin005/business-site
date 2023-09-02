@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -8,10 +9,10 @@ const BusinessExpert = () => {
                 <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
                     <div class="md:col-span-5">
                         <div class="relative">
-                            <img src="assets/images/business/about01.jpg" class="rounded-md" alt=""/>
+                            <Image src="assets/images/business/about01.jpg" class="rounded-md" alt=""/>
 
                             <div class="absolute bottom-24 right-0">
-                                <img src="assets/images/business/about02.jpg" class="rounded-md shadow-md w-48 h-48" alt=""/>
+                                <Image src="assets/images/business/about02.jpg" class="rounded-md shadow-md w-48 h-48" alt=""/>
                                 <div class="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
                                     <a href="#!" data-type="youtube" data-id="yba7hPeTSjk"
                                         class="lightbox h-14 w-14 rounded-full shadow-md dark:shadow-gyay-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600">

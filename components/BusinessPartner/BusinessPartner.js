@@ -1,5 +1,6 @@
 import React from "react";
 import BusinessPartnerData from "../../data/BusinessPartner.json";
+import Image from "next/image";
 
 const BusinessPartner = () => {
   const allData = BusinessPartnerData.Data;
@@ -11,7 +12,7 @@ const BusinessPartner = () => {
             {allData?.map((data, index) => 
               
               <div className="mx-auto py-4" key={index}>
-                    <img src={data.url} className="h-6" />
+                    <Image src={data.url} alt="img" className="h-6" />
               </div>
             )}
           </div>

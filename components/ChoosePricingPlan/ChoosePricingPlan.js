@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const ChoosePricingPlan = () => {
@@ -101,7 +102,7 @@ const ChoosePricingPlan = () => {
                                 </div>
                                 
                                 <div class="text-center mt-5">
-                                    <img src="assets/images/client/01.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
+                                    <Image src="assets/images/client/01.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
                                     <h6 class="mt-2 font-semibold">Calvin Carlo</h6>
                                     <span class="text-slate-400 text-sm">Manager</span>
                                 </div>
@@ -123,7 +124,7 @@ const ChoosePricingPlan = () => {
                                 </div>
                                 
                                 <div class="text-center mt-5">
-                                    <img src="assets/images/client/02.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
+                                    <Image src="assets/images/client/02.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
                                     <h6 class="mt-2 font-semibold">Christa Smith</h6>
                                     <span class="text-slate-400 text-sm">Manager</span>
                                 </div>
@@ -145,7 +146,7 @@ const ChoosePricingPlan = () => {
                                 </div>
                                 
                                 <div class="text-center mt-5">
-                                    <img src="assets/images/client/03.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
+                                    <Image src="assets/images/client/03.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
                                     <h6 class="mt-2 font-semibold">Jemina CLone</h6>
                                     <span class="text-slate-400 text-sm">Manager</span>
                                 </div>
@@ -167,7 +168,7 @@ const ChoosePricingPlan = () => {
                                 </div>
                                 
                                 <div class="text-center mt-5">
-                                    <img src="assets/images/client/04.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
+                                    <Image src="assets/images/client/04.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
                                     <h6 class="mt-2 font-semibold">Smith Vodka</h6>
                                     <span class="text-slate-400 text-sm">Manager</span>
                                 </div>
@@ -189,7 +190,7 @@ const ChoosePricingPlan = () => {
                                 </div>
                                 
                                 <div class="text-center mt-5">
-                                    <img src="assets/images/client/05.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
+                                    <Image src="assets/images/client/05.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
                                     <h6 class="mt-2 font-semibold">Cristino Murfi</h6>
                                     <span class="text-slate-400 text-sm">Manager</span>
                                 </div>
@@ -211,7 +212,7 @@ const ChoosePricingPlan = () => {
                                 </div>
                                 
                                 <div class="text-center mt-5">
-                                    <img src="assets/images/client/06.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
+                                    <Image src="assets/images/client/06.jpg" class="h-14 w-14 rounded-full shadow-md mx-auto" alt=""/>
                                     <h6 class="mt-2 font-semibold">Cristino Murfi</h6>
                                     <span class="text-slate-400 text-sm">Manager</span>
                                 </div>
@@ -238,7 +239,7 @@ const ChoosePricingPlan = () => {
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-8 gap-[30px]">
                     <div class="blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/01.jpg" alt=""/>
+                        <Image src="assets/images/blog/01.jpg" alt=""/>
 
                         <div class="content p-6">
                             <a href="blog-detail.html" class="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out">Design your apps in your own way</a>
@@ -251,7 +252,7 @@ const ChoosePricingPlan = () => {
                     </div>
 
                     <div class="blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/02.jpg" alt=""/>
+                        <Image src="assets/images/blog/02.jpg" alt=""/>
 
                         <div class="content p-6">
                             <a href="blog-detail.html" class="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out">How apps is changing the IT world</a>
@@ -264,7 +265,7 @@ const ChoosePricingPlan = () => {
                     </div>
 
                     <div class="blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/03.jpg" alt=""/>
+                        <Image src="assets/images/blog/03.jpg" alt=""/>
 
                         <div class="content p-6">
                             <a href="blog-detail.html" class="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out">Smartest Applications for Business</a>

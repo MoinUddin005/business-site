@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
               <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                 <div className="lg:col-span-4 md:col-span-12">
                   <a href="#" className="text-[22px] focus:outline-none">
-                    <img src="assets/images/logo-light.png" alt="" />
+                    <Image src="assets/images/logo-light.png" alt="" />
                   </a>
                   <p className="mt-6 text-gray-300">
                     Start working with Tailwind CSS that can provide everything
@@ -312,7 +313,7 @@ const Footer = () => {
             <ul className="list-none md:text-right text-center mt-6 md:mt-0">
               <li className="inline">
                 <a href="">
-                  <img
+                  <Image
                     src="assets/images/payments/american-ex.png"
                     className="max-h-6 inline"
                     title="American Express"
@@ -322,7 +323,7 @@ const Footer = () => {
               </li>
               <li className="inline">
                 <a href="">
-                  <img
+                  <Image
                     src="assets/images/payments/discover.png"
                     className="max-h-6 inline"
                     title="Discover"
@@ -332,7 +333,7 @@ const Footer = () => {
               </li>
               <li className="inline">
                 <a href="">
-                  <img
+                  <Image
                     src="assets/images/payments/master-card.png"
                     className="max-h-6 inline"
                     title="Master Card"
@@ -342,7 +343,7 @@ const Footer = () => {
               </li>
               <li className="inline">
                 <a href="">
-                  <img
+                  <Image
                     src="assets/images/payments/paypal.png"
                     className="max-h-6 inline"
                     title="Paypal"
@@ -352,7 +353,7 @@ const Footer = () => {
               </li>
               <li className="inline">
                 <a href="">
-                  <img
+                  <Image
                     src="assets/images/payments/visa.png"
                     className="max-h-6 inline"
                     title="Visa"
